@@ -37,7 +37,8 @@ whatsapp_receiver = customtkinter.CTkLabel(root, text="Receiver:", width=130,
                                fg_color=("white", "#0F3D3E"),
                                corner_radius=8, 
                                text_font=('Times New Roman', 20),
-                               bg_color='#FEB139')
+                               bg_color='#FEB139',
+                               )
 
 whatsapp_times = customtkinter.CTkLabel(root, text="Times:", width=130,
                                height=40,
@@ -60,7 +61,8 @@ whatsapp_entry_receiver = customtkinter.CTkEntry(root, width=140,
                             text_font=('Times New Roman', 20),
                             justify=CENTER,
                                bg_color='#FEB139',
-                               border_width=2, border_color="white"
+                               border_width=2, border_color="white",
+                               text_color='white'
                             )
 
 whatsapp_entry_times = customtkinter.CTkEntry(root, width=140,
@@ -70,7 +72,8 @@ whatsapp_entry_times = customtkinter.CTkEntry(root, width=140,
                             text_font=('Times New Roman', 20),
                             justify=CENTER,
                                bg_color='#E2DCC8',
-                               border_width=2, border_color="white"
+                               border_width=2, border_color="white",
+                               text_color='white'
                             )
 
 whatsapp_entry_message = customtkinter.CTkEntry(root, width=130,
@@ -80,7 +83,8 @@ whatsapp_entry_message = customtkinter.CTkEntry(root, width=130,
                             text_font=('Times New Roman', 20),
                             justify=CENTER,
                                bg_color='#FEB139',
-                               border_width=2, border_color="white"
+                               border_width=2, border_color="white",
+                               text_color='white'
                             )
 
 whatsapp_button = customtkinter.CTkButton(root, command=send_msg, width=195,
